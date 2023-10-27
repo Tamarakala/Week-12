@@ -40,12 +40,14 @@ $('#submitBook').click(function (event) {
    /* console.log("submitting books", $('#id').val()) */
  console.log("submitting books", $('#Author').val()) 
   $.post(URL_ENDPOINT, {
-  id: $('#id').val(),
+/*   id: $('#id').val(), */
   title: $('#title').val(),
-  author: $('#Author').val(),
+  author: $('#newAuthor').val(),
 })
 
 })
+
+$('#updateBook').click(updateBook);
 
 function updateBook () {
   let id = $('#updateId').val()
@@ -55,7 +57,8 @@ function updateBook () {
     data: {
       title: $('#updateTitle').val(),
       author: $('#updateAuthor').val(),
-    }
+    },
+    
   })
 }
 

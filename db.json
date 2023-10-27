@@ -1,23 +1,39 @@
 {
   "BookList": [
     {
-      "title": "Anna Karenina",
-      "author": "Leo Tolstoy ",
-      "id": "1"
+      "title": "The Little Prince",
+      "author": " Antoine de Saint-Exupéry",
+      "id": 1
     },
     {
-      "title": "One Hundred Years of Solitude",
-      "author": "Gabriel Garcia Marquez",
-      "id": "2"
+      "title": "The Handmaid’s Tale",
+      "author": "Margaret Atwood",
+      "id": 2
     },
     {
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "id": "3"
+      "title": " Pride and Prejudice",
+      "author": "Jane Austen",
+      "id": 3
     },
     {
-      "title": "Charlotte's Web ",
-      "id": "mRBKFwK"
+      "title": "All the President’s Men",
+      "author": "Bob Woodward and Carl Bernstein",
+      "id": 4
+    },
+    {
+      "title": "Man’s Search for Meaning",
+      "author": "Viktor E. Frankl ",
+      "id": 5
+    },
+    {
+      "title": "Beloved",
+      "author": "Toni Morrison ",
+      "id": 6
+    },
+    {
+      "title": "In Cold Blood ",
+      "author": " Truman Capote",
+      "id": 7
     }
   ]
 }
